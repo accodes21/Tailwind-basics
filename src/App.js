@@ -1,9 +1,12 @@
 import './App.css';
+import Channel from './components/Channel';
+import SideBar from './components/SideBar';
 
 function App() {
   return (
-    <h1 className="text-center text-green-500 font-bold text-4xl">
-      Hello World
+    <h1 className="flex">
+      <SideBar/>
+      <Channel/>
     </h1>
   );
 }
